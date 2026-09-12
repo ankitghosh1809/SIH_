@@ -57,6 +57,18 @@ select:focus-visible {
   outline-offset: 2px;
 }
 
+.app-nav { display: flex; gap: 14px; align-items: center; }
+.app-nav button, .patient-row, .patient-row a { border: 0; background: transparent; color: var(--text); font-size: 13px; }
+.dashboard { padding: 70px 0; max-width: 780px; }
+.dashboard h1 { font-size: 42px; margin: 0 0 12px; letter-spacing: -.04em; }
+.dashboard h2 { margin-top: 42px; font-size: 22px; }
+.patient-list { margin-top: 28px; border-top: 1px solid var(--border); }
+.patient-row { width: 100%; padding: 18px 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; text-align: left; }
+.patient-row span:first-child { display: flex; flex-direction: column; gap: 5px; }
+.patient-row small { color: var(--text-soft); }
+.facility-select { width: 100%; margin: 18px 0; padding: 13px; border: 1px solid var(--border-dark); border-radius: 4px; background: white; }
+.form-error { color: var(--red); font-size: 13px; margin: 12px 0; }
+
 
 /* =====================================================
    HOME
